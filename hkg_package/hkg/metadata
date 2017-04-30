@@ -1,0 +1,7 @@
+[METADATA]
+name = hkg
+version = 0.95
+description = HKG is a simple package manager for sharing self-contained scripts and utilities that are installed in and run from a normal, unpriviledged user account's home directory.
+author_name = Sean Fennell
+author_email = sean@1geek4solutions.com
+website = https://github.com/Eadrom/python-hkg
