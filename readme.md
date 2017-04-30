@@ -131,6 +131,7 @@ HKG is a simple package manager for sharing self-contained scripts and utilities
 ### Create a Package:
 A .hkg contains a simple meta-data / configuration file and directory containing your files.  Below is an example.
 
+```
 /tmp/spam
 ├── spam
 │   ├── bin.sh
@@ -142,6 +143,7 @@ A .hkg contains a simple meta-data / configuration file and directory containing
 │       │   └── art2.ascii
 │       └── functions.sh
 └── metadata
+```
 
 ### Packaging
 Command to create a package is also very simple.  The following example uses the above example directory tree.  Built packages are output into same directory as the top-level directory of the package being built.
