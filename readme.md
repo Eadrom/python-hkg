@@ -154,10 +154,12 @@ Command to create a package is also very simple.  The following example uses the
 HKG will create an example metadata file when `hkg package init /create/package/skel/here` is run.  Package developers will need to manually edit this file and fill in the correct metadata.
 Version incrementation is done manually and it is critical that developers/packagers increment the version when packaging a new release of a program.  HKG relies on this metadata when building and updating the repository side package database.
 
-`[METADATA]`
-`name = spam`
-`version = 2.1`
-`description = An example package`
-`author_name= Eadrom`
-`author_email = eadrom@example.com`
-`website = http://example.com`
+```
+[METADATA]
+name = spam
+version = 2.1
+description = An example package
+author_name= Eadrom
+author_email = eadrom@example.com
+website = http://example.com
+```
